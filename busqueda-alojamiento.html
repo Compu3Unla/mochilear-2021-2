@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mochilear - Busqueda Alojamiento</title>
+<link href="estilos.css" rel="stylesheet" type="text/css">
+<link href="index.html" rel="stylesheet">
+<link href="informacion-hospedaje.html" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link href="../css/jquery.fancybox.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+		<header id="header-info">
+			<nav id="barra_nav_home">
+				<img id="log-nav-sombra" src="animacion logo/pag secun/sombra.png" width="25" height="16" alt=""/>
+				<img id="log-nav-monte" src="animacion logo/pag secun/montaña.png" width="30" height="22" alt=""/>
+				<a href="index.html"><img id="log-nav-ubi" src="animacion logo/pag secun/ubicacion.png" width="46" height="57" alt=""/></a>
+			  	<img id="nav-mochilear" src="animacion logo/pag secun/LOGO.png" width="179" height="22" alt=""/>
+				<ul id="botonera_nav">
+				  	<li id="busqueda" > <input type="text" placeholder="Buscar" id="contenedor-buscar" ></li>	
+					<a href="informacion-hospedaje.html"><li id="boton_reservas">MIS RESERVAS</li></a>
+					<li class="boton_nav"><img src="img/iconos/idioma-verde.png" width="100" height="100" alt=""/> 
+							<ul class="desplegable">
+								<li class="desplegable-item">Español</li>
+								<li class="desplegable-item">Inglish</li>
+								<li class="desplegable-item">Portugues</li>
+								<li class="desplegable-item">Alemán</li>
+							</ul>
+						</li>
+					<a><li class="boton_nav"><img src="img/iconos/usuario-svg.svg" alt=""/>
+							<ul class="desplegable">
+						    	<li class="desplegable-item">Iniciar Sesión</li>
+								<li class="desplegable-item">Registrarse</li>
+								<li class="desplegable-item">Favoritos</li>
+								<li class="desplegable-item">Mensajes</li>
+						</ul>	
+						</li></a>
+						<li class="icono-menu">
+		   				<img id="icono-menu" src="img/iconos/menu-hamburguesa.png" width="23" height="22" alt="menu-hamburguesa"/>
+					</li>
+
+					<div class="cont-menu active" id="menu">
+						<ul class="menu-media">
+							<li class="sub-menu-media"><a>Mis Reservas</a></li>
+							<li class="sub-menu-media"><a>Idioma</a>
+								<ul class="mini-menu-media">
+									<li class="item-media">Español</li>
+									<li class="item-media">Inglish</li>
+									<li class="item-media">Portugues</li>
+									<li class="item-media">Aleman</li>
+								</ul>
+
+							</li>
+							<li class="sub-menu-media"><a>Usuario</a>
+							  <ul class="mini-menu-media">
+									<li class="item-media">Iniciar Sesión</li>
+									<li class="item-media">Registrarse</li>
+									<li class="item-media">Favoritos</li>
+									<li class="item-media">Mensajes</li>
+								</ul>
+						  </li>
+						</ul>
+					</div>
+				</ul>
+			</nav>
+		</header>
+	
+<main id= "bloque_opciones">
+	
+				<div class="mapa"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192383.82751767803!2d-71.37631497079761!3d-41.11274992769825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x961a7b1520c860e5%3A0x8210ae97cb7b9a65!2sSan%20Carlos%20de%20Bariloche%2C%20R%C3%ADo%20Negro!5e0!3m2!1ses-419!2sar!4v1636246477454!5m2!1ses-419!2sar" width="990" height="780" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+				
+					<section>
+						<ul class="opciones_buscador">
+							<li class="sub-item-opciones">Experiencia</li>
+							<li class="sub-item-opciones">Provincia</li>
+							<li class="sub-item-opciones">Alojamiento</li>
+							<li class="sub-item-opciones">Cerca Tuyo</li>
+						</ul>
+						
+						<ul class="listado-hospedaje">
+							<li class="listado-fotos-texto"><a href="informacion-hospedaje.html"><img src= "img/fotos-busqueda/fotos-busqueda1.png" width="330px" height="212px" alt="imagen hotel"></a>
+								<div class="descripcion-sur">
+									<span><h4 class="titulo-lugar">Las hojas del Sur</h4><img src="img/iconos/carpa.png" width="auto" height="30" alt=""/></span>
+									<h5 class= "sub-mapa">Bariloche, Rio Negro</h5>
+									<p class= "texto-filtro">Solo | En pareja | Con amigos | En familia</p>
+									<span><h6 class="km">3 Km</h6><img src="img/iconos/ubicacion.png" width="17" height="21" alt=""/></span>
+								</div>
+							</li>
+							
+							<li class="listado-fotos-texto"><a href="informacion-hospedaje.html"><img src="img/fotos-busqueda/fotos-busqueda2.png" width="330px" height="212px" alt="imagen hotel"></a>
+								<div class="descripcion-sur">
+									<span><h4 class="titulo-lugar">Espacios Verdes</h4><img src="img/iconos/carpa.png" width="auto" height="30" alt=""/></span>
+									<h5 class="sub-mapa">Bariloche, Rio negro</h5>
+									<p class= "texto-filtro">Solo| En pareja | Con amigos| En familia</p>
+									<span><h6 class="km">150 Km</h6><img src="img/iconos/ubicacion.png" width="17" height="21" alt=""/></span>	
+								</div>
+							</li>
+							
+							<li class="listado-fotos-texto"><a href="informacion-hospedaje.html"><img src="img/fotos-busqueda/fotos-busqueda3.png" width="330px" height="212px" alt="imagen hotel"></a>
+								<div class="descripcion-sur">
+									<span><h4 class="titulo-lugar">Amimir </h4><img src= "img/iconos/edificio.png" width="auto" height="24" alt="icono"></span>
+									<h5 class= "sub-mapa">Puerto Madryn, Santa Cruz</h5>
+									<p class= "texto-filtro">Solo | En pareja | Con amigos</p>
+									<span><h6 class="km">1.000 Km</h6><img src="img/iconos/ubicacion.png" width="17" height="21" alt=""/></span>						
+								</div>
+							</li>
+						</ul>
+				    </section>		
+</main>
+	
+
+	
+<footer>
+		<div id="infofooter">
+			<div>
+				<h5 class="h5-footer">Sobre nosotros</h5>
+				<ul class="nosotros">	
+					<li class="sub-items-footer">Cómo funciona MOCHILEAR</li>
+					<li class="sub-items-footer">Convertite en anfitrión </li>
+					<li class="sub-items-footer">Experiencias</li>
+				</ul>
+			</div>
+			<div>
+				<h5 class="h5-footer">Nuestra respuesta frente al COVID-19</h5>
+				<ul class="covid">
+					<li class="sub-items-footer">Opciones de cancelación</li>
+					<li class="sub-items-footer">Centro de ayuda</li>
+					<li class="sub-items-footer">Confianza y seguridad</li>
+				</ul>
+			</div>
+			<div>
+				<h5 class="h5-footer">Conectate con nosotros</h5>
+				<ul class="redes">
+					<li><img src="img/iconos/instagram.png" width="AUTO" height="55" alt=""/></li> 
+					<li><img src="img/iconos/facebook.png" width="AUTO" height="55" alt=""/></li>
+					<li><img src="img/iconos/whatsapp.png" width="AUTO" height="55" alt=""/></li>
+				</ul>
+			</div>
+		</div>
+		<div id="legales">
+			<span class="legal"  >© 2021 Mochilear, Inc.</span>
+			<span class="legal">Privacidad | Términos | Mapa del sitio</span>
+		</div>
+</footer>
+	
+</body>
+<script src="js/app.js"></script>
+</html>
+

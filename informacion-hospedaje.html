@@ -1,0 +1,233 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Mochilear - Información del hospedaje</title>
+<link href="estilos.css" rel="stylesheet" type="text/css">
+<link href="index.html" rel="stylesheet">
+<link href="busqueda-alojamiento.html" rel="stylesheet">
+<link href="chat.html" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link href="css/jquery.fancybox.min.css" rel="stylesheet">
+</head>
+
+<body>
+		<header id="header-info">
+			<nav id="barra_nav_home">
+				<img id="log-nav-sombra" src="animacion logo/pag secun/sombra.png" width="25" height="16" alt=""/>
+				<img id="log-nav-monte" src="animacion logo/pag secun/montaña.png" width="30" height="22" alt=""/>
+				<a href="index.html"><img id="log-nav-ubi" src="animacion logo/pag secun/ubicacion.png" width="46" height="57" alt=""/></a>
+			  	<img id="nav-mochilear" src="animacion logo/pag secun/LOGO.png" width="179" height="22" alt=""/>
+				<ul id="botonera_nav">
+				  	<li id="busqueda" > <input type="text" placeholder="Buscar" id="contenedor-buscar" ></li>	
+					<a href="informacion-hospedaje.html"><li id="boton_reservas">MIS RESERVAS</li></a>
+					<li class="boton_nav"><img src="img/iconos/idioma-verde.png" width="100" height="100" alt=""/> 
+							<ul class="desplegable">
+								<li class="desplegable-item">Español</li>
+								<li class="desplegable-item">Inglish</li>
+								<li class="desplegable-item">Portugues</li>
+								<li class="desplegable-item">Alemán</li>
+							</ul>
+						</li>
+					<a><li class="boton_nav"><img src="img/iconos/usuario-svg.svg" alt=""/>
+							<ul class="desplegable">
+						    	<li class="desplegable-item">Iniciar Sesión</li>
+								<li class="desplegable-item">Registrarse</li>
+								<li class="desplegable-item">Favoritos</li>
+								<li class="desplegable-item">Mensajes</li>
+						</ul>	
+						</li></a>
+				</ul>
+			</nav>
+		</header>
+		
+<main class="informacion">
+	<div class="infolugar">
+		<div class="nombrelugar">
+			<div>
+				<h1 id="tipo1">Las hojas del Sur </h1>
+				<h2 id="tipo2">Bariloche, Rio Negro</h2>
+			</div>
+			<div class="clasificacion">
+				<span class="peso">$</span>
+		    	<spam><img src="img/iconos/calificacion.png" width="auto" height="60" alt="calificación promedio expresada graficamente"/></spam>
+			</div>
+		</div>
+		<section class="galeria-aside">
+			<article id="galeria">
+				<a href="img/galeria/galeria-1.jpg" data-fancybox="gallery" data-caption="camping">
+				<img src="img/galeria/galeria-1miniatura.png" alt="fotografia del alojamiento 1" />
+				</a>
+				<a href="img/galeria/galeria-2.jpg" data-fancybox="gallery" data-caption="camping">
+				<img src="img/galeria/galeria-2miniatura.png" alt="fotografia del alojamiento 2" />
+				</a>
+				<a href="img/galeria/galeria-3.jpg" data-fancybox="gallery" data-caption="camping">
+				<img src="img/galeria/galeria-3miniatura.png" alt="fotografia del alojamiento 3" />
+				</a>
+				<a href="img/galeria/galeria-4.png" data-fancybox="gallery" data-caption="camping">
+				<img src="img/galeria/galeria-4miniatura.png" alt="fotografia del alojamiento 4" />
+				</a>
+				<a href="img/galeria/galeria-5.jpg" data-fancybox="gallery" data-caption="camping">
+				<img src="img/galeria/galeria-5miniatura.png" alt="fotografia del alojamiento 5" />
+				</a>
+				<a href="img/galeria/galeria-6.jpg" data-fancybox="gallery" data-caption="camping">
+				<img src="img/galeria/galeria-6miniatura.png" alt="fotografia del alojamiento 6" />
+				</a>
+				<a href="img/galeria/galeria-7.jpg" data-fancybox="gallery" data-caption="camping">
+				<img src="img/galeria/galeria-7miniatura.png" alt="fotografia del alojamiento 7" />
+				</a>
+				<a href="img/galeria/galeria-8.jpg" data-fancybox="gallery" data-caption="camping">
+				<img src="img/galeria/galeria-8miniatura.png" alt="fotografia del alojamiento 8" />
+				</a>
+				<a href="img/galeria/galeria-9.jpg" data-fancybox="gallery" data-caption="camping">
+				<img src="img/galeria/galeria-9miniatura.png" alt="fotografia del alojamiento 9" />
+				</a>
+			</article>
+			<script src="js/jquery-3.4.1.min.js"></script>
+			<script src="js/jquery.fancybox.min.js"></script>
+			
+			<aside class="anfitrion">
+				<img id="analia" src="img/perfil_info.png" width="auto" height="auto" alt="foto de perfil de la anfitriona"/>
+				<h2 id="texto-anfitrion">Anfitrión</h2>
+				<span id="nombre-anfitrion">Analia Acosta</span>
+				<div class="idioma-verificacion">
+					<img class="iconos-ana" src="img/iconos/verificacion.png" width="auto" height="34" alt="icono de verificación"/>
+					<p>Identidad verificada</p>
+				</div>
+				<div class="idioma-verificacion">
+					<img class="iconos-ana" src="img/iconos/idioma_azul.png" width="auto" height="30" alt="icono de lenguaje/idioma"/>
+					<p>English, Português, Español</p>
+				</div>
+				<p id="descripcion-ana" >Estamos disponibles para ayudarlos a que su estadía sea única, respetando siempre la privacidad que consideramos es primordial para todos nuestros visitantes.</p>
+				<a href="chat.html" id="boton-contactar"><span>CONTACTAR</span></a>
+			</aside>	
+		</section>
+		
+		<section class="infohospedaje">
+			<article id="texto-informacion">
+				<p class="texto-light">Camping cerca del lago y cálida. Está resguardada de un bosque de Robles y Olmos. Lugar para hacer fogón y hamacas paraguayas.
+				Cerca del polo gastronómico Paseo Mendoza.</p>
+
+				<p class="texto-regular">El alojamiento</p>
+				<p class="texto-light">Está ubicado en un barrio de bosque, ideal para hacer caminatas y andar en bici. Hacer fogón y disfrutar de la naturaleza.
+				Cuenta con cocina a gas. Estufas tiro balanceado en todos los ambientes.</p> 
+
+				<p class="texto-regular">Acceso de los huéspedes</p>
+				<p class="texto-light">Lugares comunes para todos los huspedes de 800 mtrs con Robles y Olmos. Hamacas paraguayas y lugar para hacer fogón.</p>
+
+				<p class="texto-regular">Otros aspectos para tener en cuenta.</p>
+				<p class="texto-light">Se puede entrar el auto a la propiedad o dejarlo en la puerta sin problemas.</p>
+			</article>
+			<aside id="evaluacion-extra">
+				<h5 class="titulo-evaluacion">PERSONAL</h5>
+		    	<img class="barra-evaluacion" src="img/iconos/barra_personal.png" width="344" height="23" alt=""/> 
+				<h5 class="titulo-evaluacion">CONFORT</h5>
+		    	<img class="barra-evaluacion" src="img/iconos/barra_confort.png" width="344" height="23" alt=""/> 
+				<h5 class="titulo-evaluacion">UBICACIÓN</h5>
+		    	<img class="barra-evaluacion" src="img/iconos/barra_ubicacion.png" width="344" height="23" alt=""/> 
+			</aside>		
+		</section>
+		
+		<section class="servicios">
+			<h6 id="h6-informacion">SERVICIOS</h6>
+			<div id="bloqueservicio">
+			<ul class="bloque1">
+				<li class="iconos-servicios"><img src="img/iconos/wifi.png" width="auto" height="25" alt=""/><span class="item-servicio">WIFI</span></li>
+				
+				<li  class="iconos-servicios"><img src="img/iconos/check_in.png" width="auto" height="40" alt=""/><span class="item-servicio">CHECK IN: 14:00hs</span></li>
+				
+				<li  class="iconos-servicios"><img src="img/iconos/check_out.png" width="auto" height="40" alt=""/><span class="item-servicio">CHECK OUT: 10:00hs</span></li>
+			</ul>
+			<ul>
+				<li class="iconos-servicios"><img src="img/iconos/mascota.png" width="auto" height="40" alt=""/><span class="item-servicio">MASCOTAS</span></li>
+				<li class="iconos-servicios"><img src="img/iconos/carpa.png" width="auto" height="40" alt=""/><span class="item-servicio">ALQUILER DE CARPAS</span></li>
+				<li class="iconos-servicios"><img src="img/iconos/fuego.png" width="45" height="45" alt=""/><span class="item-servicio">AGUA CALIENTE 24hs</span></li>
+			</ul>
+			<ul>
+				<li class="iconos-servicios"><img src="img/iconos/parcelado.png" width="auto" height="30" alt=""/><span class="item-servicio">PARCELADO</span></li>
+				<li class="iconos-servicios"><img src="img/iconos/estacionamiento.png" width="auto" height="40" alt=""/><span class="item-servicio">ESTACIONAMIENTO</span></li>
+				<li class="iconos-servicios"><img src="img/iconos/electricidad.png" width="auto" height="60" alt=""/><span class="item-servicio">ELECTRICIDAD 24hs</span></li>
+			</ul>
+			</div>
+		</section>
+</div>
+	
+		<section class="comentarios">
+			<div id="header-resenas">
+				<img src="img/iconos/reputacion.png" width="AUTO" height="60" alt=""/>
+				<span id="num-promedio">3,5</span> <span id="evaluaciones">| 15 evaluaciones</span> <span id="boton-resena">Agregar reseña</span>
+			</div>
+			<div id="resenas">
+			<ul id="lista-resenas1">
+				<li class="perfil-resena">
+					<spam><img src="img/iconos/circulo.png" width="AUTO" height="69" alt=""/></spam>Buena ubicación, lugar cómodo agradable.</li>
+				<li class="perfil-resena">
+					<spam><img src="img/iconos/circulo.png" width="69" height="69" alt=""/></spam>Todo estuvo perfecto. Ana es re amable y muy comunicativa. El lugar está bien ubicado y está limpio. Muy recomendable!</li>
+				<li class="perfil-resena">
+					<spam><img src="img/iconos/circulo.png" width="69" height="69" alt=""/></spam>Excelente lugar súper recomdable!!! Ideal para desconectarse y pasar unos días de relax!! Hermoso todo y Ana la anfitriona una genia!!!!!!!</li>
+			</ul>
+			<ul id="lista-resenas2">
+				<li class="perfil-resena">
+					<spam><img src="img/iconos/circulo.png" width="69" height="69" alt=""/></spam>Acepto sin problemas a nuestro perrito y siempre atenta a que todo este bien. Muchas gracias por la estadia.</li>
+				<li class="perfil-resena">
+					<spam><img src="img/iconos/circulo.png" width="69" height="69" alt=""/></spam>Acepto sin problemas a nuestro perrito y siempre atenta a que todo este bien. Muchas gracias por la estadia.</li>
+				<li class="perfil-resena">
+					<spam><img src="img/iconos/circulo.png" width="69" height="69" alt=""/></spam>Highly recommended ! Ana is an angel and her stay a tiny peace of paradise. Such a wonderful peaceful energy!</li>
+			</ul>
+			</div>
+		</section>
+		<section id="fechas">
+			<h5 id="titulo-fecha"><span id="titulo1-fecha">Busca la fecha ideal</span> <span id="titulo2-fecha">para vos</span></h5>
+			<div id="calendario-reserva">
+				<img src="img/calendario.png" width="1086" height="auto" alt=""/>
+				<aside id="reservar">
+					<p id="titulo-reserva">Seleccioná las fechas que mas te guste</p>
+					<div id="bloque-reserva">
+						<span class="check">Check-IN</span>
+						<span class="check">Check-OUT</span>
+						<span class="barra-completar"></span>
+						<span class="barra-completar"></span>
+					</div>
+					<span id="boton-mochilero">1 MOCHILERO</span>
+					<span id="boton-reservar">RESERVAR</span>
+				</aside>
+			</div>
+		</section>
+		
+		
+	</main>
+	<footer>
+		<div id="infofooter">
+			<div>
+				<h5 class="h5-footer">Sobre nosotros</h5>
+				<ul class="nosotros">	
+					<li class="sub-items-footer">Cómo funciona MOCHILEAR</li>
+					<li class="sub-items-footer">Convertite en anfitrión </li>
+					<li class="sub-items-footer">Experiencias</li>
+				</ul>
+			</div>
+			<div>
+				<h5 class="h5-footer">Nuestra respuesta frente al COVID-19</h5>
+				<ul class="covid">
+					<li class="sub-items-footer">Opciones de cancelación</li>
+					<li class="sub-items-footer">Centro de ayuda</li>
+					<li class="sub-items-footer">Confianza y seguridad</li>
+				</ul>
+			</div>
+			<div>
+				<h5 class="h5-footer">Conectate con nosotros</h5>
+				<ul class="redes">
+					<li><img src="img/iconos/instagram.png" width="AUTO" height="55" alt=""/></li> 
+					<li><img src="img/iconos/facebook.png" width="AUTO" height="55" alt=""/></li>
+					<li><img src="img/iconos/whatsapp.png" width="AUTO" height="55" alt=""/></li>
+				</ul>
+			</div>
+		</div>
+		<div id="legales">
+			<span class="legal"  >© 2021 Mochilear, Inc.</span>
+			<span class="legal">Privacidad | Términos | Mapa del sitio</span>
+		</div>
+	</footer>
+</body>
+
+</html>
